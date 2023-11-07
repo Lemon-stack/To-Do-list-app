@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:verdana,"verdana sans-serif";
+  height:100vh;
+  width:100vw;
+}
+#container{
+  width:100%;
+  height:100%;
+  margin:0;
+  background:linear-gradient(#FF3030,#7D1010);
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  
+
+  
+}
+.ctn-box{
+  background-color: #fff;
+  padding:3rem 1.5rem;
+  border-radius:6px;
+  margin:0;
+  margin-top:-6rem;
+  
+
+}
+.hero{
+  margin-top: -2rem;
+}
+h2{
+  margin:0;
+  padding-bottom:1.2rem;
+  font-size:1.8rem;
+}
+.logo-icon{
+  width:15vw;
+  height:auto;
+  margin-bottom:-17px;
+  margin-left:-7px;
+}
+input{
+  font-size:1rem;
+  padding:0.8rem 0.7rem;
+  width:15rem;
+  border:none;
+  outline:none;
+  border-radius:20px;
+  background-color:#EFEFEF;
+}
+.input-field{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  font-size:1rem;
+  color:#fff;
+  padding:0.8rem 1.1rem;
+  margin-left:-2rem;
+  border-radius:15px;
+  border:none;
+  background-color:#FF0000;
+ 
+ 
+}
+ul li{
+  list-style:none;
+  position:relative;
+  left:-1rem;
+  padding:0.7rem;
+  user-select:none;
+}
+
+ul li::before{
+  content:'';
+  background-color:#EFEFEF;
+  border:1px solid #DEDEDE;
+  border-radius:60px;
+  height:20px;
+  width:20px;
+  position:absolute;
+  left:-1rem;
+  padding:0;
+  margin:0;
+  top:10.5px;
+  
+ 
+}
+ul li.checked{
+  color:#555;
+  text-decoration: line-through;
+}
+ul li.checked::before{
+  content:'';
+  background-image:url('tick.png');
+  background-size:15px;
+  background-position: center;
+  background-repeat:no-repeat;
+  height:20px;
+  width:20px;
+  position:absolute;
+  left:-1rem;
+  padding:0;
+  margin:0;
+  top:10.5px;
+}
+ul li span{
+  font-size: 20px;
+  position: fixed;
+  left:19rem;
+  width:25px;
+  height:auto;
+  text-align:center;
+  color:#555;
+}
+ul li span:hover{
+  background-color:#E7E7E7;
+  border-radius:50px;
+}
